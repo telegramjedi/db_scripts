@@ -18,7 +18,7 @@ print ("Table created successfully")
 
 #conn.close()
 
-conn.execute("INSERT INTO COMPANY (?,?,?,?,?) \
+conn.execute("INSERT INTO PLANTS (?,?,?,?,?) \
       VALUES (?, '?', ?, '?', ? )");
 
 conn.commit()
